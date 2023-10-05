@@ -16,7 +16,7 @@ export const Header = () => {
                         placeholder="Search..."
                         className="bg-transparent focus:outline-none w-24 sm:w-64"
                     />
-                    <FaSearch classname="text-slate-600" />
+                    <FaSearch className="text-slate-600" />
                 </form>
                 <ul className="flex gap-4">
                     <Link to="/">
