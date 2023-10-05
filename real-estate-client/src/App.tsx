@@ -5,10 +5,12 @@ import {SignUp} from "./pages/SignUp.tsx";
 import {About} from "./pages/About.tsx";
 import {Profile} from "./pages/Profile.tsx";
 import {Header} from "./components/Header.tsx";
+import {Toaster} from "react-hot-toast";
 
 export const App = () => {
     return(
         <BrowserRouter>
+            <Toaster />
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
