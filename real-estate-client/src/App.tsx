@@ -4,10 +4,12 @@ import {Signin} from "./pages/Signin.tsx";
 import {SignUp} from "./pages/SignUp.tsx";
 import {About} from "./pages/About.tsx";
 import {Profile} from "./pages/Profile.tsx";
+import {Header} from "./components/Header.tsx";
 
 export const App = () => {
     return(
         <BrowserRouter>
+            <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/sign-in" element={<Signin />} />
