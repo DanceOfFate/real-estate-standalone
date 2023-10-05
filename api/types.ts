@@ -3,8 +3,10 @@ export interface Error {
     message: string;
 }
 
+
 export interface IUser {
     username: string;
     email: string;
     password: string;
+    _doc?: any
 }
